@@ -3,6 +3,7 @@ storage = []
     collection.each do |x|
         if (x.even?)
         storage.push(yield)
+        else
     end
     storage
 end
