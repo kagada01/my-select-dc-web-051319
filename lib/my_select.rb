@@ -4,6 +4,7 @@ storage = []
         if (x % 2 == true)
         storage.push(yield)
         else
-        end storage
+        end
     end
+    storage
 end
