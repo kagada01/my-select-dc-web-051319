@@ -3,7 +3,7 @@ storage = []
     collection.each do |x|
         if (x % 2 == 0)
         yield(x)
-        storage.push(yield)
+        storage.push(x)
         else
         end
     end
