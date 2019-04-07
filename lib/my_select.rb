@@ -2,7 +2,7 @@ def my_select(collection)
 storage = []
     collection.each do |x|
         if (x % 2 == 0)
-        yield
+        yield(x)
         storage.push(yield)
         else
         end
