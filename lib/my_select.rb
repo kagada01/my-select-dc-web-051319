@@ -2,7 +2,7 @@ def my_select(collection)
 storage = []
 i = 0
     collection.each do |x|
-      if ((x % 2) == 0)
+      x.even?
         storage.push(yield x)
         i += 1
       else
