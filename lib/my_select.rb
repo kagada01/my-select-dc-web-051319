@@ -4,6 +4,7 @@ storage = []
         if (x.even?)
         storage.push(yield)
         else
+        end
     end
     storage
 end
