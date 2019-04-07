@@ -5,8 +5,6 @@ i = 0
       x.even?
         storage.push(yield x)
         i += 1
-      else
-      end
     end
     storage
 end
