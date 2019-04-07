@@ -1,7 +1,7 @@
 def my_select(collection)
 storage = []
     collection.each do |x|
-        x.even?
+        if (x.even?)
         storage.push(yield)
     end
     storage
